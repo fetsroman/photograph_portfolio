@@ -8,7 +8,7 @@ $(document).ready(function() {
     $vimeoVideoID = arr.slice(-1)
   });
 
-  $.getJSON('http://www.vimeo.com/api/v2/video/' + $vimeoVideoID + '.json?callback=?', {format: "json"}, function(data) {  
+  $.getJSON('https://www.vimeo.com/api/v2/video/' + $vimeoVideoID + '.json?callback=?', {format: "json"}, function(data) {  
     $(".thumbs").attr('src', data[0].thumbnail_large);
   });
 
