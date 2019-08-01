@@ -1,0 +1,18 @@
+.card{
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(210, 203, 203, 0.32) !important;
+}
+
+.card-header{
+  background: none;
+  padding: 0;
+}
+
+.btn-link{
+  padding: 0;
+}
+
+.btn-link:hover, .btn-link:active, .btn-link:focus{
+  text-decoration: none;
+}

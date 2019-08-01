@@ -1,0 +1,200 @@
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  height: auto;
+  background-color: #FEFAF7;
+  margin: 0;
+  padding: 0;
+  position:relative;
+  overflow-x: hidden;
+}
+
+/* body::after{ content:''; display:block; height:100px; } */
+
+section{
+  padding-bottom: 150px;
+}
+
+hr{
+  /* width: 100%; */
+  border: 1px solid #6D7282;
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+h2{
+  font-size: 3em; /* or 48px */
+  color: #5F6472;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 2.25em; /* or 36px */
+  color: #5F6472;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1em; /* or 16px */
+  color: #5F6472;
+}
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ADA0A6;
+}
+
+h6{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 0.875em; /* or 14px */
+  line-height: 1.438em;  /* 150% or 24px */
+  color: #ADA0A6;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em; /* or 16px */
+  color: #5F6472;
+}
+
+ul{
+  padding-left: 20px;
+  margin: 30px 0;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1em; /* or 16px */
+  line-height: 200%; /* or 32px */
+  color: #5F6472;
+  list-style: none;
+}
+
+li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5F6472; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.icon{
+  fill: #ADA0A6;
+  font-size: 1.2rem;
+  margin: 20px 30px 20px 0px;
+}
+
+.icon-viber, .icon-telegram{
+  margin: 0 10px;
+}
+
+.inline-block{
+  display: inline-block !important;
+}
+
+a:hover .icon-viber, a:hover .viber{
+  fill: #8074d6;
+  color: #8074d6;
+}
+
+a:hover .icon-telegram,  a:hover .telegram{
+  fill: #0088cc;
+  color: #0088cc;
+}
+
+a:hover .icon-instagram{
+  fill: #C13584;
+}
+
+a:hover .icon-facebook{
+  fill: #4267b2;
+}
+
+a:hover .icon-vimeo{
+  fill: rgb(26, 46, 59);
+}
+
+a:hover .icon{
+  transition: 0.4s;
+}
+
+.navbar-toggler{
+  display: inline-block !important;
+  color: #5F6472;
+}
+
+nav{
+  color: #5F6472;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+footer{
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+  background-color: #5F6472;
+  padding: 10px 0;
+  position: absolute; 
+  margin: 0;
+}
+
+footer p{
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 10px;
+}
+
+footer .icon{
+  color: #ADA0A6;
+}
+
+footer hr{
+  margin-top: 15px;
+}
+
+.movadex{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.movadex:hover{
+  color: #ff6a71;
+  text-decoration: underline;
+}
+
+.btn-custom{
+  width: 10rem; /* or 160px */
+  background: #2F80ED;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.875em; /* 14px */
+  color: #FEFEFE;
+  padding: 12px 0px;
+  margin: 25px 0;
+}
+
+.btn-custom:hover, .btn-custom:active, .btn-custom:active{
+  background: #5B9DF4;
+  color: #FEFEFE;
+  transition: 0.4s;
+}
