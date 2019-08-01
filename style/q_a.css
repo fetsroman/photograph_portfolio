@@ -16,3 +16,18 @@
 .btn-link:hover, .btn-link:active, .btn-link:focus{
   text-decoration: none;
 }
+
+.accordion h2, .accordion button, .accordion h4{
+  width: 100%;
+}
+
+.accordion button[aria-expanded='true'] h4:after{
+  content: url(../img/icons/arrow-up.svg);
+  float: right;
+}
+
+.accordion button[aria-expanded='false'] h4:after{
+  content: url(../img/icons/arrow-down.svg);
+  float: right;
+  display: inline-block;
+}

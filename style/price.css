@@ -1,7 +1,7 @@
 .price{
   width: 100%;
   height: auto;
-  background: linear-gradient(0deg, rgba(243, 242, 242, 0.95), rgba(243, 242, 242, 0.95)), url(price_foto.jpg);
+  background: linear-gradient(0deg, rgba(243, 242, 242, 0.95), rgba(243, 242, 242, 0.95)), url(../img/price_foto.jpg);
   padding-top: 50px;
 }
 
