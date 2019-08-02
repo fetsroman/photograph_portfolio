@@ -168,6 +168,7 @@ footer p{
 .mail-link{
   color: #FFFFFF;
   transition: 0.4s;
+  margin-top: 10px;
 }
 
 .mail-link:hover{
