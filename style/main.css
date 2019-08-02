@@ -1,18 +1,18 @@
 html{
   height: 100%;
+  overflow-x: hidden;
 }
 
 body{
   min-height: 100%;
   height: auto;
+  min-width: 100vw;
   background-color: #FEFAF7;
   margin: 0;
   padding: 0;
-  position:relative;
-  overflow-x: hidden;
+  position: relative;
+  overflow-x: hidden !important;;
 }
-
-/* body::after{ content:''; display:block; height:100px; } */
 
 section{
   padding-bottom: 150px;
@@ -98,10 +98,7 @@ li::before {
   fill: #ADA0A6;
   font-size: 1.2rem;
   margin: 20px 30px 20px 0px;
-}
-
-.icon:hover{
-  transition: 6s;
+  transition: 5s;
 }
 
 .icon-viber, .icon-telegram{
@@ -110,6 +107,10 @@ li::before {
 
 .inline-block{
   display: inline-block !important;
+}
+
+a .icon-viber, a .viber, a .icon-telegram, a .telegram, a .icon-instagram, a .icon-facebook, a .icon-vimeo{
+  transition: 0.4s;
 }
 
 a:hover .icon-viber, a:hover .viber{
@@ -124,7 +125,7 @@ a:hover .icon-telegram,  a:hover .telegram{
   transition: 0.4s;
 }
 
-.icon-instagram:hover{
+a:hover .icon-instagram{
   fill: #C13584;
   transition: 0.4s;
 }
@@ -167,6 +168,7 @@ footer p{
 
 footer .icon{
   color: #ADA0A6;
+  transition: 5s;
 }
 
 footer hr{
@@ -176,11 +178,13 @@ footer hr{
 .movadex{
   color: #FFFFFF;
   text-decoration: underline;
+  transition: 0.4s;
 }
 
 .movadex:hover{
   color: #ff6a71;
   text-decoration: underline;
+  transition: 0.4s;
 }
 
 .btn-custom{
