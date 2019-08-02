@@ -25,7 +25,7 @@
 .video-btn svg{
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 33%;
 }
 
 .video-btn img{
@@ -84,14 +84,19 @@
   opacity:1;
 }
 
+@media(max-width: 768px){
+  .video-btn svg{
+    left: 47.5%;
+    top: 26%;
+  }
+}
+
 @media(max-width: 576px){
   .portfolio{
     padding-bottom: 0;
   }
 
-  .video-btn svg{
-    top: 30%;
-  }
+
 
   .close{
     right: 5px;
