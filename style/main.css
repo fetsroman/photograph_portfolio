@@ -98,7 +98,6 @@ li::before {
   fill: #ADA0A6;
   font-size: 1.2rem;
   margin: 20px 30px 20px 0px;
-  transition: 5s;
 }
 
 .icon-viber, .icon-telegram{
@@ -166,9 +165,18 @@ footer p{
   margin: 10px 0;
 }
 
+.mail-link{
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.mail-link:hover{
+  color: #5B9DF4;
+  transition: 0.4s;
+}
+
 footer .icon{
   color: #ADA0A6;
-  transition: 5s;
 }
 
 footer hr{
