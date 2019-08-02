@@ -14,3 +14,11 @@
   color: #9D8E95;
   margin: 20px 0;
 }
+
+@media(max-width: 576px){
+  .price{
+    padding-bottom: 250px;
+  }
+
+  
+}

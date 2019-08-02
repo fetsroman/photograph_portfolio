@@ -25,11 +25,28 @@
 .video-btn svg{
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 35%;
 }
 
 .video-btn img{
   max-width: 100%;
+}
+.modal-content{
+  background: none;
+  border: none;
+}
+
+
+.modal-header{
+  background: none;
+}
+
+/* .modal-header button{
+  color: #5F6472;
+} */
+
+.close{
+  text-shadow: none;
 }
 
 .modal-title{
@@ -48,6 +65,7 @@
 .modal-body {
   position:relative;
   padding:0px;
+  background: rgba(254, 250, 247, 0.8);
 }
 
 .modal-footer{
@@ -64,4 +82,18 @@
   font-weight: normal;
   color:#fff;
   opacity:1;
+}
+
+@media(max-width: 576px){
+  .portfolio{
+    padding-bottom: 0;
+  }
+
+  .video-btn svg{
+    top: 30%;
+  }
+
+  .close{
+    right: 5px;
+  }
 }

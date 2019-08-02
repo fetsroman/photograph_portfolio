@@ -56,3 +56,30 @@ input{
 #datepicker::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
+
+@media(max-width: 576px){
+  .foto-div{
+    margin: 80px 0;
+  }
+
+  .foto-div div{
+    padding-right: 25px;
+  }
+
+  .foto{
+    -webkit-box-shadow: 25px -25px 0px 0px #D2CBCB;
+    -moz-box-shadow: 25px -25px 0px 0px #D2CBCB;
+    box-shadow: 25px -25px 0px 0px #D2CBCB;
+    margin-right: 25px;
+    max-width: 90%;
+  }
+
+  input{
+    background: #FFFFFF !important;
+    border-radius: 10px !important;
+  }
+
+  #datepicker{
+    background:#FFFFFF url(../img/icons/date_icon.svg)  97% 50% no-repeat !important;
+  }
+}
