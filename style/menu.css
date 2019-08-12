@@ -61,9 +61,11 @@ video {
 
 .number{
   margin: 2rem; /* 32px */
-  font-family: 'Montserrat', sans-serif;
 }
 
+.number p{
+  font-family: 'Montserrat', sans-serif;
+}
 /* MEDIA */
 
 @media(max-width: 576px){
