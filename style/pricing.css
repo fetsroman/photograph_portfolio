@@ -44,6 +44,11 @@ iframe{
     width: 577px;
     height: 320px;
   }
+  
+  .img{
+    margin: 0;
+    height: auto;
+  }
 }
 
 @media(max-width: 576px){
@@ -71,10 +76,6 @@ iframe{
     margin-top: 20px;
   }
 
-  .img{
-    margin: 0;
-    height: auto;
-  }
 /* 
   .img-4{
     transform: scale(4);

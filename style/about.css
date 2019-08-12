@@ -1,11 +1,7 @@
-nav{
-  margin-bottom: 110px;
-}
-
 .foto{
-  -webkit-box-shadow: -35px 40px 0px 0px #D2CBCB;
-  -moz-box-shadow: -35px 40px 0px 0px #D2CBCB;
-  box-shadow: -35px 40px 0px 0px #D2CBCB;
+  /*-webkit-box-shadow: -35px 40px 0px 0px #D2CBCB;*/
+  /*-moz-box-shadow: -35px 40px 0px 0px #D2CBCB;*/
+  /*box-shadow: -35px 40px 0px 0px #D2CBCB;*/
   width: auto;
   height : auto;
   max-height: 100%;
