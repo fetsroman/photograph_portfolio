@@ -43,7 +43,7 @@ video {
   text-transform: uppercase;
   font-family: 'Playfair Display', serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1.125em; /* 18px */
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.03em;
@@ -61,19 +61,20 @@ video {
 
 .number{
   margin: 2rem; /* 32px */
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* MEDIA */
 
 @media(max-width: 576px){
-  video{
+  /* video{
     display: none;
-  }
+  } */
 
-  .menu{
+  /* .menu{
     background: linear-gradient(0deg, rgba(254, 250, 247, 0.8), rgba(254, 250, 247, 0.8)), linear-gradient(0deg, rgba(255, 205, 178, 0.2), rgba(255, 205, 178, 0.2)), url(../img/mobile_bg.jpg);
     background-position: center top;
-  }
+  } */
 
   .btn-menu, .btn-menu:hover, .btn-menu:active, .btn-menu:focus{
     background: none;

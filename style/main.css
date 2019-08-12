@@ -32,41 +32,41 @@ a:hover, a:focus{
 h2{
   font-size: 3em; /* or 48px */
   color: #5F6472;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
 }
 
 h3{
   font-size: 2.25em; /* or 36px */
   color: #5F6472;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
 }
 
 h4{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
   font-size: 1em; /* or 16px */
   color: #5F6472;
 }
 
 h5{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
   font-size: 20px;
   color: #ADA0A6;
 }
 
 h6{
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
   font-size: 0.875em; /* or 14px */
   line-height: 1.438em;  /* 150% or 24px */
   color: #ADA0A6;
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 1em; /* or 16px */
   color: #5F6472;
 }
@@ -77,7 +77,7 @@ ul{
 }
 
 li{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-size: 1em; /* or 16px */
   line-height: 200%; /* or 32px */
@@ -202,8 +202,8 @@ footer hr{
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   border-radius: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
   font-size: 0.875em; /* 14px */
   color: #FEFEFE;
   padding: 12px 0px;

@@ -31,11 +31,11 @@
 .video-btn img{
   max-width: 100%;
 }
+
 .modal-content{
   background: none;
   border: none;
 }
-
 
 .modal-header{
   background: none;
@@ -63,7 +63,7 @@
 }
 
 .modal-body {
-  position:relative;
+  position: relative;
   padding:0px;
   background: rgba(254, 250, 247, 0.8);
 }
@@ -74,7 +74,7 @@
 }
 
 .close {
-  position:absolute;
+  position: absolute;
   right:-30px;
   top:0;
   z-index:999;
