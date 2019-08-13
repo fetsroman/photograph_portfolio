@@ -19,13 +19,14 @@
   background: none;
   border: none;
   padding: 0;
-  max-width: 100%
+  max-width: 100%;
+  position: relative;
 }
 
 .video-btn svg{
   position: absolute;
   left: 50%;
-  top: 33%;
+  top: 50%;
 }
 
 .video-btn img{
@@ -84,19 +85,17 @@
   opacity:1;
 }
 
-@media(max-width: 768px){
-  .video-btn svg{
-    left: 47.5%;
-    top: 26%;
-  }
-}
+@media(max-width: 768px){}
 
 @media(max-width: 576px){
   .portfolio{
     padding-bottom: 0;
   }
 
-
+  .video-btn svg{
+    left: 47.5%;
+    /*top: 26%;*/
+  }
 
   .close{
     right: 5px;
