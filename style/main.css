@@ -147,7 +147,7 @@ a:hover .icon-vimeo{
 nav{
   color: #5F6472;
   padding-top: 35px;
-  padding-bottom:px;
+  padding-bottom: 35px;
 }
 
 footer{
@@ -159,9 +159,10 @@ footer{
   margin: 0;
 }
 
-footer p{
+footer p, footer a{
   color: #FFFFFF;
   margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .mail-link{
@@ -231,8 +232,8 @@ footer hr{
   }
 
   nav.container{
-    padding-top: 55px;
-    padding-bottom: 20px;
+    /*padding-top: 55px;*/
+    /*padding-bottom: 20px;*/
     margin-bottom: 20px;
     background: #F9F5F3;
   }
