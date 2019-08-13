@@ -147,7 +147,7 @@ a:hover .icon-vimeo{
 nav{
   color: #5F6472;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom:px;
 }
 
 footer{
@@ -155,7 +155,6 @@ footer{
   bottom: 0;
   width: 100%;
   background-color: #5F6472;
-  padding: 10px 0;
   position: absolute; 
   margin: 0;
 }

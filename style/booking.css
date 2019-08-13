@@ -45,17 +45,17 @@ input{
   color: #5F6472;
 }
 
-#datepicker{
-  background:#F7F7F7 url(../img/icons/date_icon.svg)  97% 50% no-repeat !important;
-}
+/*#datepicker{*/
+/*  background:#F7F7F7 url(../img/icons/date_icon.svg)  97% 50% no-repeat !important;*/
+/*}*/
 
-#datepicker::-webkit-inner-spin-button {
-  display: none;
-}
+/*#datepicker::-webkit-inner-spin-button {*/
+/*  display: none;*/
+/*}*/
 
-#datepicker::-webkit-calendar-picker-indicator {
-  opacity: 0;
-}
+/*#datepicker::-webkit-calendar-picker-indicator {*/
+/*  opacity: 0;*/
+/*}*/
 
 @media(max-width: 576px){
   .foto-div{
