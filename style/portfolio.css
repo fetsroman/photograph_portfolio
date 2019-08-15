@@ -57,8 +57,9 @@
 }
 
 .modal-dialog {
-  max-width: 800px;
-  margin: 30px auto;
+  max-width: 80% ;
+  /* margin: 20px auto; */
+  height: auto;
 }
 
 .modal-body {
@@ -89,6 +90,18 @@
 @media(max-width: 576px){
   .portfolio{
     padding-bottom: 0;
+  }
+
+  .card{
+    height: 200px;
+  }
+
+  .modal-dialog {
+    max-width: 100% ;
+  }
+
+  .video-btn .thumbs{
+    height: 200px;
   }
 
   .video-btn svg{
