@@ -15,20 +15,13 @@ body{
   max-width: 100vw;
 }
 
-hr{
-  /* width: 100%; */
-  border: 1px solid #6D7282;
-  margin: 0px;
-  padding: 0px;
-}
-
 a:hover, a:focus{
   text-decoration: none;
 }
 
 h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px !important;
+  font-size: 15px;
   color: #FFFFFF;
 }
 
@@ -77,63 +70,6 @@ a:hover .icon-vimeo{
   transition: 0.4s;
 }
 
-.navbar-toggler{
-  display: inline-block !important;
-  color: #5F6472;
-}
-
-nav{
-  color: #5F6472;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-
-footer{
-  /* left: 0; */
-  bottom: 0;
-  width: 100%;
-  background-color: #5F6472;
-  margin: 0;
-  z-index: 5;
-}
-
-footer p, footer a{
-  color: #FFFFFF;
-  margin: 10px 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.mail-link{
-  color: #FFFFFF;
-  transition: 0.4s;
-  margin-top: 10px;
-}
-
-.mail-link:hover{
-  color: #5B9DF4;
-  transition: 0.4s;
-}
-
-footer .icon{
-  color: #ADA0A6;
-}
-
-footer hr{
-  margin-top: 15px;
-}
-
-.movadex{
-  color: #FFFFFF;
-  text-decoration: underline;
-  transition: 0.4s;
-}
-
-.movadex:hover{
-  color: #ff6a71;
-  text-decoration: underline;
-  transition: 0.4s;
-}
-
 .btn-custom{
   width: 10rem; /* or 160px */
   background: #2F80ED;
@@ -152,31 +88,4 @@ footer hr{
   background: #5B9DF4;
   color: #FEFEFE;
   transition: 0.4s;
-}
-
-/* MEDIA */
-
-@media(max-width: 576px){
-  h2{
-    font-size: 2em;/* 32px */
-  }
-
-  .icon{
-    margin: 10px 15px 10px 15px;
-  }
-
-  .icon-telegram, .icon-viber{
-    margin: 0;
-  }
-
-  nav.container{
-    /*padding-top: 55px;*/
-    /*padding-bottom: 20px;*/
-    margin-bottom: 20px;
-    background: #F9F5F3;
-  }
-
-  footer hr{
-    display: none;
-  }
 }
