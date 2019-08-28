@@ -5,20 +5,21 @@ video {
     min-width: 100%;
 }
 
-.menu {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 50px;
-    min-height: 100vh;
-    width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+.menu{
+  padding: 0;
+  margin: 0;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  width: 100%;
+  background: none;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .logo {
