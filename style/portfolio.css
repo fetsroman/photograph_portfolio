@@ -11,6 +11,7 @@
     width: 100%;
     position: relative;
     max-height: 100%;
+    outline: none;
 }
 
 .video-btn svg {
@@ -67,7 +68,6 @@
 .modal-body {
     position: relative;
     padding: 0px;
-    background: rgb(33, 37, 41);
 }
 
 .modal-footer {
@@ -76,7 +76,7 @@
     border: none;
 }
 
-.close {
+.close, .close:hover {
     position: absolute;
     right: -30px;
     top: 0;
